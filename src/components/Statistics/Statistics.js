@@ -8,7 +8,7 @@ export const Statistics = ({stats,tittle})=>{
         <Container> <h2 className="title">{tittle}</h2>
     <List className="stat-list">
      {stats.map(stat=>(
-         <Item className="item" key = {stat.id}>
+         <Item className="item" key = {stat.id} percentage={stat.percentage}>
             <Statisticitem stats = {stat}/>
          </Item>
      ))}

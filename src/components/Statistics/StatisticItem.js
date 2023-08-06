@@ -1,4 +1,5 @@
-export const Statisticitem = ({stats})=>{
+export const Statisticitem = ({ stats }) => {
+    console.log()
     
  return (
     <>
