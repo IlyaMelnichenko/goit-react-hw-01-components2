@@ -6,17 +6,17 @@ export const Item = styled.li`
 `;
 
 
-export const Span = styled.span`
-border-radius: 50%;
-background-color: ${props => {
-    switch (props.status) {
-        case 'false':
-            return 'red';
-        case 'true':
-            return 'green';
-    }
-}};
-width:20px;
-height: 20px;
+// export const Span = styled.span`
+// border-radius: 50%;
+// background-color: ${props => {
+//     switch (props.status) {
+//         case 'false':
+//             return 'red';
+//         case 'true':
+//             return 'green';
+//     }
+// }};
+// width:20px;
+// height: 20px;
 
-`
+// `
