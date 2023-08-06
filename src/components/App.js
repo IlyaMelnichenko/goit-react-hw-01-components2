@@ -11,13 +11,13 @@ import { Container } from "./profile/Profile.styled";
 
 
 export const App = () => {
-  return <Container>
+  return <div>
     <Profile items={profileUsers} />
     <Statistics tittle = "Upload stats" stats={data} />
     <FriendList friends= {friends}/>
     <TransactionHistory items = {transactions}/>
     <GlobalStyle/>
-  </Container>;
+  </div>;
           
   
 };
