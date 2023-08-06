@@ -13,11 +13,11 @@ import { GlobalStyle } from "./Globalstyle";
 export const App = () => {
   return (<div>
     <Profile items={profileUsers} />
-    <Statistics tittle = "Upload stats" stats={data} />
-    <FriendList friends= {friends}/>
-    <TransactionHistory items = {transactions}/>
-    <GlobalStyle/>
-  </div>)
+    <Statistics tittle="Upload stats" stats={data} />
+    <FriendList friends={friends} />
+    <TransactionHistory items={transactions} />
+    <GlobalStyle />
+  </div>);
           
   
 };
