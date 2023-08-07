@@ -4,15 +4,15 @@ export const Profile = ({
   items: { stats, location, avatar, tag, username },
 }) => {
   return (
-    <Container className="profile">
-      <Description className="description">
-        <Image src={avatar} alt="User avatar" className="avatar" />
+    <Container>
+      <Description>
+        <Image src={avatar} alt="User avatar"/>
         <h3 className="name">{username}</h3>
         <p className="tag">@{tag}</p>
         <p className="location">{location}</p>
       </Description>
 
-      <List className="stats">
+      <List>
         <Item>
           <span className="label">Followers</span>
           <span className="quantity">{stats.followers}</span>
