@@ -1,12 +1,8 @@
 export const Statisticitem = ({ stats }) => {
-    console.log()
-    
- return (
+  return (
     <>
-        <span className="label">{stats.label}</span>
-        <span className="percentage">{stats.percentage}%</span>
+      <span className="label">{stats.label}</span>
+      <span className="percentage">{stats.percentage}%</span>
     </>
- 
-        
-);
+  );
 };

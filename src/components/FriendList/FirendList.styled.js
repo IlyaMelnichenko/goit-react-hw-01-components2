@@ -1,24 +1,22 @@
 import styled from 'styled-components';
 
 export const Item = styled.li`
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 `;
 
-
 export const Span = styled.span`
-border-radius: 50%;
-background-color: ${props => {
+  border-radius: 50%;
+  background-color: ${props => {
     switch (props.status) {
-        case 'false':
-            return 'red';
-        case 'true':
-            return 'green';
-        default:
-            return 'black';
+      case 'false':
+        return 'red';
+      case 'true':
+        return 'green';
+      default:
+        return 'black';
     }
-}};
-width:20px;
-height: 20px;
-
-`
+  }};
+  width: 20px;
+  height: 20px;
+`;
